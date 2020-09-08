@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		A705ABF925077ABD009D1AA4 /* FeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABF825077ABD009D1AA4 /* FeeViewController.swift */; };
 		A705ABFB25077ADF009D1AA4 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABFA25077ADF009D1AA4 /* QuizViewController.swift */; };
 		A705ABFD25077AFC009D1AA4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABFC25077AFC009D1AA4 /* SettingViewController.swift */; };
+		A75279D02507A5A600EAE279 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75279CF2507A5A600EAE279 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		A705ABF825077ABD009D1AA4 /* FeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeViewController.swift; sourceTree = "<group>"; };
 		A705ABFA25077ADF009D1AA4 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		A705ABFC25077AFC009D1AA4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		A75279CF2507A5A600EAE279 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				A705ABDC250778F4009D1AA4 /* AppDelegate.swift */,
 				A705ABDE250778F4009D1AA4 /* SceneDelegate.swift */,
 				A705ABE0250778F4009D1AA4 /* ViewController.swift */,
+				A75279CF2507A5A600EAE279 /* TabBarController.swift */,
 				A705ABF225077A2A009D1AA4 /* LoginViewController.swift */,
 				A705ABF425077A44009D1AA4 /* HomeViewController.swift */,
 				A705ABF625077A9D009D1AA4 /* UseViewController.swift */,
@@ -98,7 +101,6 @@
 				9E32AACD063BA3D99914E823 /* Pods-Kirei.debug.xcconfig */,
 				7CE5982B918E72EE03EE9B40 /* Pods-Kirei.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +230,7 @@
 				A705ABF525077A44009D1AA4 /* HomeViewController.swift in Sources */,
 				A705ABF325077A2A009D1AA4 /* LoginViewController.swift in Sources */,
 				A705ABE1250778F4009D1AA4 /* ViewController.swift in Sources */,
+				A75279D02507A5A600EAE279 /* TabBarController.swift in Sources */,
 				A705ABFB25077ADF009D1AA4 /* QuizViewController.swift in Sources */,
 				A705ABDD250778F4009D1AA4 /* AppDelegate.swift in Sources */,
 				A705ABFD25077AFC009D1AA4 /* SettingViewController.swift in Sources */,
