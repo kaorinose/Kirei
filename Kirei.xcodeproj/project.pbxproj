@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97C976E4C8A1818CF4D80A9C /* Pods_Kirei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0557337E49CDDCBDB4825F1 /* Pods_Kirei.framework */; };
 		A705ABDD250778F4009D1AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABDC250778F4009D1AA4 /* AppDelegate.swift */; };
 		A705ABDF250778F4009D1AA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABDE250778F4009D1AA4 /* SceneDelegate.swift */; };
 		A705ABE1250778F4009D1AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABE0250778F4009D1AA4 /* ViewController.swift */; };
 		A705ABE4250778F4009D1AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A705ABE2250778F4009D1AA4 /* Main.storyboard */; };
 		A705ABE6250778F7009D1AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A705ABE5250778F7009D1AA4 /* Assets.xcassets */; };
 		A705ABE9250778F7009D1AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A705ABE7250778F7009D1AA4 /* LaunchScreen.storyboard */; };
+		A705ABF325077A2A009D1AA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABF225077A2A009D1AA4 /* LoginViewController.swift */; };
+		A705ABF525077A44009D1AA4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABF425077A44009D1AA4 /* HomeViewController.swift */; };
+		A705ABF725077A9D009D1AA4 /* UseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABF625077A9D009D1AA4 /* UseViewController.swift */; };
+		A705ABF925077ABD009D1AA4 /* FeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABF825077ABD009D1AA4 /* FeeViewController.swift */; };
+		A705ABFB25077ADF009D1AA4 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABFA25077ADF009D1AA4 /* QuizViewController.swift */; };
+		A705ABFD25077AFC009D1AA4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABFC25077AFC009D1AA4 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7CE5982B918E72EE03EE9B40 /* Pods-Kirei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kirei.release.xcconfig"; path = "Target Support Files/Pods-Kirei/Pods-Kirei.release.xcconfig"; sourceTree = "<group>"; };
+		9E32AACD063BA3D99914E823 /* Pods-Kirei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kirei.debug.xcconfig"; path = "Target Support Files/Pods-Kirei/Pods-Kirei.debug.xcconfig"; sourceTree = "<group>"; };
+		A0557337E49CDDCBDB4825F1 /* Pods_Kirei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kirei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A705ABD9250778F4009D1AA4 /* Kirei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kirei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A705ABDC250778F4009D1AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A705ABDE250778F4009D1AA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		A705ABE5250778F7009D1AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A705ABE8250778F7009D1AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A705ABEA250778F7009D1AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A705ABF225077A2A009D1AA4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A705ABF425077A44009D1AA4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A705ABF625077A9D009D1AA4 /* UseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseViewController.swift; sourceTree = "<group>"; };
+		A705ABF825077ABD009D1AA4 /* FeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeViewController.swift; sourceTree = "<group>"; };
+		A705ABFA25077ADF009D1AA4 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		A705ABFC25077AFC009D1AA4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C976E4C8A1818CF4D80A9C /* Pods_Kirei.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				A705ABDB250778F4009D1AA4 /* Kirei */,
 				A705ABDA250778F4009D1AA4 /* Products */,
+				C251357AB5179ACA72DC5689 /* Pods */,
+				DFDC24463AB25A92F7BC6DAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +78,36 @@
 				A705ABDC250778F4009D1AA4 /* AppDelegate.swift */,
 				A705ABDE250778F4009D1AA4 /* SceneDelegate.swift */,
 				A705ABE0250778F4009D1AA4 /* ViewController.swift */,
+				A705ABF225077A2A009D1AA4 /* LoginViewController.swift */,
+				A705ABF425077A44009D1AA4 /* HomeViewController.swift */,
+				A705ABF625077A9D009D1AA4 /* UseViewController.swift */,
+				A705ABF825077ABD009D1AA4 /* FeeViewController.swift */,
+				A705ABFA25077ADF009D1AA4 /* QuizViewController.swift */,
+				A705ABFC25077AFC009D1AA4 /* SettingViewController.swift */,
 				A705ABE2250778F4009D1AA4 /* Main.storyboard */,
 				A705ABE5250778F7009D1AA4 /* Assets.xcassets */,
 				A705ABE7250778F7009D1AA4 /* LaunchScreen.storyboard */,
 				A705ABEA250778F7009D1AA4 /* Info.plist */,
 			);
 			path = Kirei;
+			sourceTree = "<group>";
+		};
+		C251357AB5179ACA72DC5689 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E32AACD063BA3D99914E823 /* Pods-Kirei.debug.xcconfig */,
+				7CE5982B918E72EE03EE9B40 /* Pods-Kirei.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DFDC24463AB25A92F7BC6DAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0557337E49CDDCBDB4825F1 /* Pods_Kirei.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A705ABED250778F7009D1AA4 /* Build configuration list for PBXNativeTarget "Kirei" */;
 			buildPhases = (
+				CC26AB350FF76531CD221F6A /* [CP] Check Pods Manifest.lock */,
 				A705ABD5250778F4009D1AA4 /* Sources */,
 				A705ABD6250778F4009D1AA4 /* Frameworks */,
 				A705ABD7250778F4009D1AA4 /* Resources */,
+				64F5278A4ABC1CA178B4C311 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +178,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64F5278A4ABC1CA178B4C311 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kirei/Pods-Kirei-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kirei/Pods-Kirei-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kirei/Pods-Kirei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC26AB350FF76531CD221F6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kirei-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A705ABD5250778F4009D1AA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A705ABF525077A44009D1AA4 /* HomeViewController.swift in Sources */,
+				A705ABF325077A2A009D1AA4 /* LoginViewController.swift in Sources */,
 				A705ABE1250778F4009D1AA4 /* ViewController.swift in Sources */,
+				A705ABFB25077ADF009D1AA4 /* QuizViewController.swift in Sources */,
 				A705ABDD250778F4009D1AA4 /* AppDelegate.swift in Sources */,
+				A705ABFD25077AFC009D1AA4 /* SettingViewController.swift in Sources */,
+				A705ABF725077A9D009D1AA4 /* UseViewController.swift in Sources */,
 				A705ABDF250778F4009D1AA4 /* SceneDelegate.swift in Sources */,
+				A705ABF925077ABD009D1AA4 /* FeeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +375,7 @@
 		};
 		A705ABEE250778F7009D1AA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E32AACD063BA3D99914E823 /* Pods-Kirei.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +388,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.0003.kaori.Kirei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A705ABEF250778F7009D1AA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE5982B918E72EE03EE9B40 /* Pods-Kirei.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +407,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.0003.kaori.Kirei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
