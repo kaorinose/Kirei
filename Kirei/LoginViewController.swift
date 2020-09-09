@@ -2,7 +2,7 @@
 //  LoginViewController.swift
 //  Kirei
 //
-//  Created by 0003 QBS on 2020/09/08.
+//  Created by 0003 QBS on 2020/09/10.
 //  Copyright © 2020 0003.kaori. All rights reserved.
 //
 

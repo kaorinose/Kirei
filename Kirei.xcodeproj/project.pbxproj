@@ -10,17 +10,16 @@
 		97C976E4C8A1818CF4D80A9C /* Pods_Kirei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0557337E49CDDCBDB4825F1 /* Pods_Kirei.framework */; };
 		A705ABDD250778F4009D1AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABDC250778F4009D1AA4 /* AppDelegate.swift */; };
 		A705ABDF250778F4009D1AA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABDE250778F4009D1AA4 /* SceneDelegate.swift */; };
-		A705ABE1250778F4009D1AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABE0250778F4009D1AA4 /* ViewController.swift */; };
 		A705ABE4250778F4009D1AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A705ABE2250778F4009D1AA4 /* Main.storyboard */; };
 		A705ABE6250778F7009D1AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A705ABE5250778F7009D1AA4 /* Assets.xcassets */; };
 		A705ABE9250778F7009D1AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A705ABE7250778F7009D1AA4 /* LaunchScreen.storyboard */; };
-		A705ABF325077A2A009D1AA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABF225077A2A009D1AA4 /* LoginViewController.swift */; };
 		A705ABF525077A44009D1AA4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABF425077A44009D1AA4 /* HomeViewController.swift */; };
 		A705ABF725077A9D009D1AA4 /* UseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABF625077A9D009D1AA4 /* UseViewController.swift */; };
 		A705ABF925077ABD009D1AA4 /* FeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABF825077ABD009D1AA4 /* FeeViewController.swift */; };
 		A705ABFB25077ADF009D1AA4 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABFA25077ADF009D1AA4 /* QuizViewController.swift */; };
 		A705ABFD25077AFC009D1AA4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABFC25077AFC009D1AA4 /* SettingViewController.swift */; };
 		A75279D02507A5A600EAE279 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75279CF2507A5A600EAE279 /* TabBarController.swift */; };
+		A7D4D6E225099D3900FD243B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D4D6E125099D3900FD243B /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,18 +29,17 @@
 		A705ABD9250778F4009D1AA4 /* Kirei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kirei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A705ABDC250778F4009D1AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A705ABDE250778F4009D1AA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A705ABE0250778F4009D1AA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A705ABE3250778F4009D1AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A705ABE5250778F7009D1AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A705ABE8250778F7009D1AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A705ABEA250778F7009D1AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A705ABF225077A2A009D1AA4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A705ABF425077A44009D1AA4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A705ABF625077A9D009D1AA4 /* UseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseViewController.swift; sourceTree = "<group>"; };
 		A705ABF825077ABD009D1AA4 /* FeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeViewController.swift; sourceTree = "<group>"; };
 		A705ABFA25077ADF009D1AA4 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		A705ABFC25077AFC009D1AA4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		A75279CF2507A5A600EAE279 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A7D4D6E125099D3900FD243B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +77,9 @@
 			children = (
 				A705ABDC250778F4009D1AA4 /* AppDelegate.swift */,
 				A705ABDE250778F4009D1AA4 /* SceneDelegate.swift */,
-				A705ABE0250778F4009D1AA4 /* ViewController.swift */,
 				A75279CF2507A5A600EAE279 /* TabBarController.swift */,
-				A705ABF225077A2A009D1AA4 /* LoginViewController.swift */,
 				A705ABF425077A44009D1AA4 /* HomeViewController.swift */,
+				A7D4D6E125099D3900FD243B /* LoginViewController.swift */,
 				A705ABF625077A9D009D1AA4 /* UseViewController.swift */,
 				A705ABF825077ABD009D1AA4 /* FeeViewController.swift */,
 				A705ABFA25077ADF009D1AA4 /* QuizViewController.swift */,
@@ -228,14 +225,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A705ABF525077A44009D1AA4 /* HomeViewController.swift in Sources */,
-				A705ABF325077A2A009D1AA4 /* LoginViewController.swift in Sources */,
-				A705ABE1250778F4009D1AA4 /* ViewController.swift in Sources */,
 				A75279D02507A5A600EAE279 /* TabBarController.swift in Sources */,
 				A705ABFB25077ADF009D1AA4 /* QuizViewController.swift in Sources */,
 				A705ABDD250778F4009D1AA4 /* AppDelegate.swift in Sources */,
 				A705ABFD25077AFC009D1AA4 /* SettingViewController.swift in Sources */,
 				A705ABF725077A9D009D1AA4 /* UseViewController.swift in Sources */,
 				A705ABDF250778F4009D1AA4 /* SceneDelegate.swift in Sources */,
+				A7D4D6E225099D3900FD243B /* LoginViewController.swift in Sources */,
 				A705ABF925077ABD009D1AA4 /* FeeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
