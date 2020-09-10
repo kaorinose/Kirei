@@ -99,6 +99,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="キレイライフプラスロゴ" translatesAutoresizingMaskIntoConstraints="NO" id="XOv-l2-Vi4">
+                                <rect key="frame" x="87" y="74" width="240" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="e4r-9I-gFG"/>
@@ -125,6 +129,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="キレイライフプラスロゴ" translatesAutoresizingMaskIntoConstraints="NO" id="Upe-d3-2G4">
+                                <rect key="frame" x="87" y="72" width="240" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="dFE-3H-3zB"/>
@@ -151,6 +159,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="キレイライフプラスロゴ" translatesAutoresizingMaskIntoConstraints="NO" id="8eS-5O-6Hs">
+                                <rect key="frame" x="87" y="74" width="240" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="U9N-O0-6cp"/>
@@ -177,6 +189,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="キレイライフプラスロゴ" translatesAutoresizingMaskIntoConstraints="NO" id="5yT-dI-yRU">
+                                <rect key="frame" x="87" y="69" width="240" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="GiC-cg-Ldc"/>
@@ -190,62 +206,46 @@
         <!--ホーム-->
         <scene sceneID="GDc-3c-0VP">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bV0-U9-eW8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="Home" id="KlC-xO-Xnq" customClass="HomeViewController" customModule="Kirei" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="scB-cT-9i4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="キレイライフプラスロゴ" translatesAutoresizingMaskIntoConstraints="NO" id="CIu-p1-Wgd">
-                                <rect key="frame" x="90" y="44" width="240" height="55"/>
+                                <rect key="frame" x="87" y="74" width="240" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="キレイライフプラスロゴ" translatesAutoresizingMaskIntoConstraints="NO" id="pGT-Ik-3Hk">
-                                <rect key="frame" x="20" y="290" width="374" height="141"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Qピコピコ" translatesAutoresizingMaskIntoConstraints="NO" id="pGT-Ik-3Hk">
+                                <rect key="frame" x="20" y="309" width="374" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="キレイライフプラスロゴ" translatesAutoresizingMaskIntoConstraints="NO" id="aSh-F7-oQm">
-                                <rect key="frame" x="20" y="439" width="374" height="151"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="お得情報" translatesAutoresizingMaskIntoConstraints="NO" id="aSh-F7-oQm">
+                                <rect key="frame" x="20" y="460" width="374" height="151"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cxe-ix-x5k">
-                                <rect key="frame" x="20" y="720" width="124" height="70"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Aプラン" translatesAutoresizingMaskIntoConstraints="NO" id="N5S-KJ-GSw">
+                                <rect key="frame" x="20" y="137" width="374" height="164"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" title="チラシ">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PK5-Bd-vOw">
-                                <rect key="frame" x="152" y="720" width="116" height="70"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="チラシゴロ" translatesAutoresizingMaskIntoConstraints="NO" id="tXp-ew-D36">
+                                <rect key="frame" x="20" y="717" width="121" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.89801508190000001" green="0.95372825859999999" blue="0.89018839599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="旬な情報">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaG-tW-sZg">
-                                <rect key="frame" x="276" y="720" width="118" height="70"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="旬な情報ゴロ" translatesAutoresizingMaskIntoConstraints="NO" id="9QP-KM-IJi">
+                                <rect key="frame" x="147" y="717" width="121" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76601403951644897" green="0.87542867660522461" blue="0.93921536207199097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="停電情報">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXy-Q1-oeU">
-                                <rect key="frame" x="20" y="598" width="374" height="114"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="停電情報ゴロ" translatesAutoresizingMaskIntoConstraints="NO" id="64I-62-Smb">
+                                <rect key="frame" x="273" y="717" width="121" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88398972600000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Qピコ">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="キレイライフプラスロゴ" translatesAutoresizingMaskIntoConstraints="NO" id="N5S-KJ-GSw">
-                                <rect key="frame" x="20" y="118" width="374" height="164"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ポイントサービス" translatesAutoresizingMaskIntoConstraints="NO" id="eHH-Z6-2xb">
+                                <rect key="frame" x="20" y="613" width="374" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DnV-Xc-ywZ">
-                                <rect key="frame" x="354" y="51" width="40" height="40"/>
+                                <rect key="frame" x="354" y="81" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="アラート"/>
                             </button>
@@ -255,7 +255,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="ホーム" image="person.crop.circle" catalog="system" id="kEP-Y9-5f7"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bV0-U9-eW8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-530.43478260869574" y="916.74107142857133"/>
         </scene>
@@ -283,13 +282,20 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Aプラン" width="315" height="159"/>
+        <image name="Qピコピコ" width="317" height="114"/>
         <image name="gauge.badge.plus" catalog="system" width="64" height="50"/>
         <image name="lasso" catalog="system" width="64" height="58"/>
         <image name="pencil.tip" catalog="system" width="48" height="64"/>
         <image name="person.crop.circle" catalog="system" width="64" height="60"/>
         <image name="xmark.seal" catalog="system" width="64" height="60"/>
+        <image name="お得情報" width="320" height="127"/>
         <image name="アラート" width="256" height="256"/>
         <image name="キレイライフプラスロゴ" width="247" height="47"/>
+        <image name="チラシゴロ" width="96" height="30"/>
+        <image name="ポイントサービス" width="310" height="87"/>
         <image name="九電ロゴ_社訓なし" width="78" height="25"/>
+        <image name="停電情報ゴロ" width="98" height="31"/>
+        <image name="旬な情報ゴロ" width="94" height="31"/>
     </resources>
 </document>
