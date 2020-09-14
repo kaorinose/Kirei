@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JmC-9Z-alL">
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JmC-9Z-alL">
                                 <rect key="frame" x="52" y="440" width="310" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99423950910568237" green="0.70144818876298964" blue="0.87829912141592636" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -23,6 +23,9 @@
                                 <state key="normal" title="ログイン">
                                     <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="handleLoginButton:" destination="1Cv-FS-fUe" eventType="touchUpInside" id="Odm-c4-CXc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wy8-ry-Xbx">
                                 <rect key="frame" x="52" y="533" width="310" height="69"/>
@@ -83,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kUD-OS-jlh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1537.68115942029" y="117.85714285714285"/>
+            <point key="canvasLocation" x="-1251" y="917"/>
         </scene>
         <!--電気使用量-->
         <scene sceneID="2PN-U0-6ri">
@@ -255,6 +258,7 @@
                         <viewLayoutGuide key="safeArea" id="cYq-dK-T2D"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="ホーム" image="person.crop.circle" catalog="system" id="kEP-Y9-5f7"/>
+                    <navigationItem key="navigationItem" id="6gy-Nt-1ig"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bV0-U9-eW8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -265,6 +269,7 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="BrC-3y-chr" customClass="TabBarController" customModule="Kirei" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="JAl-GM-JwR"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="f6Y-Ni-u1V">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>

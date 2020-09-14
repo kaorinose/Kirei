@@ -10,6 +10,11 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    // ログインボタンが押下された時の処理
+    @IBAction func handleLoginButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

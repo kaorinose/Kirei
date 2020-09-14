@@ -13,15 +13,17 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // タブアイコンの色
-        self.tabBar.tintColor = UIColor(red: 1.0, green: 0.90, blue: 0.90, alpha: 1)
+        self.tabBar.tintColor = UIColor(red: 1.0, green: 0.40, blue: 0.90, alpha: 1)
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        // ログインしていないときの処理
-        let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "Login")
-        self.present(loginViewController!, animated: true, completion: nil)
+        // 初期画面表示の判定処理
+            // 初回だけの処理
+            let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "Login")
+            self.present(loginViewController!, animated: true, completion: nil)
+            
     }
 
 }
