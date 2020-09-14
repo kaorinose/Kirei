@@ -13,7 +13,9 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // 表示したい画像の名前(拡張子含む)を引数とする。
+        let backgroundImage = UIImage(named: "ログイン背景.png")!
+        self.view.backgroundColor = UIColor(patternImage: backgroundImage)
     }
     
 
