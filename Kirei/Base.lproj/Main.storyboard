@@ -206,7 +206,6 @@
         <!--ホーム-->
         <scene sceneID="GDc-3c-0VP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bV0-U9-eW8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="Home" id="KlC-xO-Xnq" customClass="HomeViewController" customModule="Kirei" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="scB-cT-9i4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -255,6 +254,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="ホーム" image="person.crop.circle" catalog="system" id="kEP-Y9-5f7"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bV0-U9-eW8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-530.43478260869574" y="916.74107142857133"/>
         </scene>
