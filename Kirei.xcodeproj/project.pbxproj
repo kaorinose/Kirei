@@ -19,6 +19,7 @@
 		A705ABFB25077ADF009D1AA4 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABFA25077ADF009D1AA4 /* QuizViewController.swift */; };
 		A705ABFD25077AFC009D1AA4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705ABFC25077AFC009D1AA4 /* SettingViewController.swift */; };
 		A75279D02507A5A600EAE279 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75279CF2507A5A600EAE279 /* TabBarController.swift */; };
+		A77A9CEC2511B8B80009C565 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A9CEB2511B8B80009C565 /* AlarmViewController.swift */; };
 		A7D4D6E225099D3900FD243B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D4D6E125099D3900FD243B /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		A705ABFA25077ADF009D1AA4 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		A705ABFC25077AFC009D1AA4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		A75279CF2507A5A600EAE279 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A77A9CEB2511B8B80009C565 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		A7D4D6E125099D3900FD243B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 				A705ABF825077ABD009D1AA4 /* FeeViewController.swift */,
 				A705ABFA25077ADF009D1AA4 /* QuizViewController.swift */,
 				A705ABFC25077AFC009D1AA4 /* SettingViewController.swift */,
+				A77A9CEB2511B8B80009C565 /* AlarmViewController.swift */,
 				A705ABE2250778F4009D1AA4 /* Main.storyboard */,
 				A705ABE5250778F7009D1AA4 /* Assets.xcassets */,
 				A705ABE7250778F7009D1AA4 /* LaunchScreen.storyboard */,
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77A9CEC2511B8B80009C565 /* AlarmViewController.swift in Sources */,
 				A705ABF525077A44009D1AA4 /* HomeViewController.swift in Sources */,
 				A75279D02507A5A600EAE279 /* TabBarController.swift in Sources */,
 				A705ABFB25077ADF009D1AA4 /* QuizViewController.swift in Sources */,
